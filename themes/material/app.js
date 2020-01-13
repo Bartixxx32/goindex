@@ -264,7 +264,7 @@ function file_video(path){
 	<br>
 	<!-- 固定标签 -->
 	<div class="mdui-textfield">
-	  <label class="mdui-textfield-label">下载地址</label>
+	  <label class="mdui-textfield-label">Direct link</label>
 	  <input class="mdui-textfield-input" type="text" value="${url}"/>
 	</div>
 	<div class="mdui-textfield">
@@ -289,11 +289,11 @@ function file_audio(path){
 	<br>
 	<!-- 固定标签 -->
 	<div class="mdui-textfield">
-	  <label class="mdui-textfield-label">下载地址</label>
+	  <label class="mdui-textfield-label">Direct link</label>
 	  <input class="mdui-textfield-input" type="text" value="${url}"/>
 	</div>
 	<div class="mdui-textfield">
-	  <label class="mdui-textfield-label">HTML 引用地址</label>
+	  <label class="mdui-textfield-label">HTML Embed</label>
 	  <textarea class="mdui-textfield-input"><audio><source src="${url}"></audio></textarea>
 	</div>
 </div>
@@ -312,7 +312,7 @@ function file_image(path){
 	<img class="mdui-img-fluid" src="${url}"/>
 	<br>
 	<div class="mdui-textfield">
-	  <label class="mdui-textfield-label">下载地址</label>
+	  <label class="mdui-textfield-label">Direct link</label>
 	  <input class="mdui-textfield-input" type="text" value="${url}"/>
 	</div>
 	<div class="mdui-textfield">
